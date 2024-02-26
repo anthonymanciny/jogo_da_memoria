@@ -53,7 +53,7 @@ header{
     
 }
 .back{
-    background-image: url(/images/back.png);
+    background-image: url(../images/back.png);
     backface-visibility: hidden;
 }
 .reveal-card{

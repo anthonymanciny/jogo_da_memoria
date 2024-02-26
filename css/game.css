@@ -1,3 +1,11 @@
+.main{ 
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: bisque;
+    min-height: 100vh;
+
+}
 .grid{
     display: grid;
     grid-template-columns: repeat(5,1fr) ;
@@ -25,6 +33,7 @@
     background-position: center;
     border: 2px solid #39813a;
     border-radius: 5px;
+    transition: all 1000ms ease;
 }
 
 .front{
@@ -39,4 +48,9 @@
 
 .reveal-card{
     transform: rotateY(180deg);
+}
+
+.disabled-card{
+    filter: saturate(0);
+    opacity: 0.5;
 }
